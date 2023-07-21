@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+body {
+  font-family: serif, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul{
+  width:90%;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #6ffcf5;
+  position: fixed;
+  top: 0; 
+  width: 100%; 
+}
+
+header img{
+  width:5%;
+  border-radius: 90px;
+}
+
+#navbar ul{
+  display: flex;
+}
+
+#navbar li {
+margin-left: 2em;
+text-align:center;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #070808;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#welcome-section, #connect, footer{
+  color:#fcfcfc;
+background-color:#070808;
+}
+
+#welcome-section{
+  margin-top:5rem;
+  padding:15rem 5rem 15rem 5rem;
+  font-size:20px;
+  text-align:center;
+}
+
+#welcome-section p{
+  color:#6ffcf5;
+}
+
+#projects{
+  color:#fcfcfc;
+  background-color:#376664;
+  padding:4rem 0.5rem 1rem 0.5rem;
+  font-size:20px;
+  text-align:center;
+}
+
+.row {
+  margin: 0 -5px;
+  width:90%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card {
+  background-color:#070808;
+  margin:1rem;
+  padding: 16px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 #fcfcfc;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 16px 16px;
+  border-radius: 0 0 5px 5px;
+}
+
+.container a{
+  color:#fcfcfc;
+}
+
+.project-tile{
+  border-radius: 5px 0;
+  width:100%;
+}
+
+
+@media screen and (max-width: 800px) {
+  header img{
+    width:10%;
+    border-radius: 90px;
+  }
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+#connect{
+  padding:3rem 0.5rem 2rem 0.5rem;
+  font-size:20px;
+  text-align:center;
+  border-bottom:5px solid #6ffcf5;
+  justify-content: evenly;
+}
+
+#connect p{
+  font-style:italic;
+  font-size:15px;
+}
+
+#connect ul{
+  width:90%;
+  margin:1rem;
+  display: inline-block;
+  text-align: center;
+}
+
+#connect ul li{
+ display:inline;
+ margin:1rem;
+}
+a img{
+  width:50px;
+  height:50px;
+  border-radius: 10px;
+}
+
+footer{
+  padding:1rem;
+  text-align:center;
+}
