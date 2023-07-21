@@ -55,6 +55,12 @@ text-align:center;
   text-decoration: none;
 }
 
+#navbar li:hover, #navbar a:hover{
+  transition: 0.3s;
+  color: #6ffcf5;
+  background-color: black;
+}
+
 #welcome-section, #connect, footer{
   color:#fcfcfc;
 background-color:#070808;
@@ -104,7 +110,7 @@ background-color:#070808;
   border-radius: 5px;
 }
 
-.card:hover {
+.card:hover, #connect li:hover {
   box-shadow: 0 8px 16px 0 #fcfcfc;
   transition: 0.3s;
   border-radius: 5px;
