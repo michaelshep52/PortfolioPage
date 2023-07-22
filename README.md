@@ -6,6 +6,9 @@ HTML/CSS page
 * Responsive images
 * Responsive cards
 * Responsive navbar
+* Mailto Link
+* Tel link
+* Icon Links
   
 ## Project Pictures
 <img width="1011" alt="Screenshot 2023-07-21 at 3 22 09 PM" src="https://github.com/michaelshep52/PortfolioPage/assets/112525897/7c79742d-8a77-4312-a84e-96aee6d171f0">
